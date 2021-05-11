@@ -1,2 +1,8 @@
-# 100 days 100 js projects
- 
+# 100 days 100 js projects - https://jsbeginners.com/javascript-projects-for-beginners/
+
+DAY 1: Change Background Color JavaScript Project 
+	11.05.2021
+	https://jsbeginners.com/change-background-color-project/
+
+
+
