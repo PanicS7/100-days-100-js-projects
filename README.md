@@ -2,9 +2,8 @@
 
 <pre>
 DAY 1: 
-	Change Background Color JavaScript Project 
+	<a target="_blank" href="https://jsbeginners.com/change-background-color-project/">Change Background Color JavaScript Project </a>
 		11.05.2021
-		https://jsbeginners.com/change-background-color-project/
 	Change HEX Background Color JavaScript Project
 		11.05.2021
 		https://jsbeginners.com/hex-change-background-color-project/
