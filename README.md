@@ -10,5 +10,12 @@ DAY 1:
 		https://jsbeginners.com/hex-change-background-color-project/
 </pre>
 
+<pre>
+DAY 2: 
+	Random Quotes JavaScript Project
+		12.05.2021
+		https://jsbeginners.com/random-quotes-project/
+</pre>
+
 
 
