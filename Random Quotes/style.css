@@ -1,0 +1,33 @@
+﻿body{
+    background-color: #09123c;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+#quoteSection {
+    margin: 50vh auto;
+    transform: translateY(-50%);
+    width: 350px;
+    background-color: #fff;
+    opacity: 0.8;
+    padding: 20px 10px 10px;
+    height: 250px;
+}
+#author {
+    text-align: right;
+    color: #11be0f;
+}
+.fa-quote-left {
+    font-size: 30px;
+    padding: 5px;
+}
+button {
+    padding: 10px;
+    border: 0;
+    color: #fff;
+    background-color: #09123c; 
+    font-size: 20px;
+}
+button:hover {
+    cursor: pointer;
+}

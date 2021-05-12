@@ -1,0 +1,2 @@
+Random Quotes JavaScript Project
+https://jsbeginners.com/random-quotes-project/
