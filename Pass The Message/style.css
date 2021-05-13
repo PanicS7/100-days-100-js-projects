@@ -1,0 +1,40 @@
+﻿body {
+    background-color: aqua;
+}
+div {
+    margin: 50vh auto;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 500px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+input {
+    height: 20px;
+}
+#alertPlaceholder {
+    display: none;
+    padding: 5px;
+}
+.msgCharLimit {
+    animation: autoHide 0s ease-in 3s forwards;
+    display: block !important;
+    color: #fff;
+    background-color: tomato;
+}
+
+#msgPlaceholder {
+    color: #2e47bd;
+    font-weight: bold;
+}
+@keyframes autoHide {
+    to {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+}

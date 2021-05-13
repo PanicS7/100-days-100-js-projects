@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Pass The Message</title>
+    <link href="./style.css" rel="stylesheet" />
+</head>
+<body>
+    <div>
+        <h1>A message you would like to pass</h1>
+        <input type="text" id="msg" placeholder="enter message here" />
+        <button id="btn" onclick="deliver()">Submit</button>
+        <hr />
+        <h2>Last message delivered</h2>
+        <p id="alertPlaceholder">Your message is too long, max allowed character is 250!</p>
+        <p id="msgPlaceholder"></p>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

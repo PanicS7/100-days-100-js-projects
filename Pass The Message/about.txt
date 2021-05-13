@@ -1,0 +1,7 @@
+Pass The Message JavaScript Project
+https://jsbeginners.com/pass-the-message-project/
+
+Exept this:
+If no input is submitted, an alert should show (using the ‘show' class in the CSS file) in the “Last Message Delivered” section and then disappear after 2 second.
+
+I add validation if input message is long, more than 250 char, alert should show and then disappear. Also if empty (no input) is submited nothing will heppend.
