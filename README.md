@@ -16,6 +16,12 @@ DAY 2:
 		12.05.2021
 		https://jsbeginners.com/random-quotes-project/
 </pre>
+<pre>
+DAY 3: 
+	Pass the Message Project
+		13.05.2021
+		https://jsbeginners.com/pass-the-message-project/
+</pre>
 
 
 
