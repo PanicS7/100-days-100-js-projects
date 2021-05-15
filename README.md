@@ -22,6 +22,12 @@ DAY 3:
 		13.05.2021
 		https://jsbeginners.com/pass-the-message-project/
 </pre>
+<pre>
+DAY 4: 
+	Counter Project
+		14.05.2021
+		https://jsbeginners.com/counter-project/
+</pre>
 
 
 
