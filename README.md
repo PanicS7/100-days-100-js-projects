@@ -28,6 +28,13 @@ DAY 4:
 		14.05.2021
 		https://jsbeginners.com/counter-project/
 </pre>
+<pre>
+DAY 5: 
+	Background Image Slider JavaScript Project
+		15.05.2021
+		https://jsbeginners.com/background-image-slider-project/
+</pre>
+
 
 
 
