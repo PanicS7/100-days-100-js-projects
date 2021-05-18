@@ -34,6 +34,12 @@ DAY 5:
 		15.05.2021
 		https://jsbeginners.com/background-image-slider-project/
 </pre>
+<pre>
+DAY 6: 
+	Testimonials JavaScript Project
+		16.05.2021
+		https://jsbeginners.com/testimonials-project/
+</pre>
 
 
 
