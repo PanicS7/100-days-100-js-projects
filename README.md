@@ -40,6 +40,15 @@ DAY 6:
 		16.05.2021
 		https://jsbeginners.com/testimonials-project/
 </pre>
+<pre>
+DAY 7:
+</pre>
+<pre>
+DAY 8: 
+	Filter JavaScript Project
+		18.05.2021
+		https://jsbeginners.com/filter-project/
+</pre>
 
 
 
