@@ -1,0 +1,10 @@
+Filter project
+https://jsbeginners.com/filter-project/
+
+new things learned 
+how to use [data] to access elements in js
+how to use dataset
+how to use .search() method and check if string have characters
+make new list by filtering old using [... new Set(oldset)]
+activate function on mause over and mause out
+access childNodes, and better understanding of Nodes in js

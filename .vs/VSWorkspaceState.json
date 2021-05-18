@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Background Image Slider"
+    "\\Filter",
+    "\\Filter\\img"
   ],
-  "SelectedNode": "\\Background Image Slider\\img",
+  "SelectedNode": "\\Filter\\app.js",
   "PreviewInSolutionExplorer": false
 }
