@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Filter",
-    "\\Filter\\img"
+    "\\Modal"
   ],
-  "SelectedNode": "\\Filter\\app.js",
+  "SelectedNode": "\\Modal\\app.js",
   "PreviewInSolutionExplorer": false
 }
