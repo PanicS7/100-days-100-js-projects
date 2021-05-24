@@ -49,6 +49,16 @@ DAY 8:
 		18.05.2021
 		https://jsbeginners.com/filter-project/
 </pre>
+<pre>
+DAY 9:
+</pre>
+<pre>
+DAY 10:
+	Modal JavaScript Project
+	20.05.2021
+	https://jsbeginners.com/modal-javascript-project/
+</pre>
+	
 
 
 
