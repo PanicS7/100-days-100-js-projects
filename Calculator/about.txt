@@ -1,0 +1,4 @@
+Calculator JS project
+https://jsbeginners.com/calculator-javascript-project/
+
+My old code - fixed bugs

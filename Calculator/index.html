@@ -1,0 +1,46 @@
+﻿<!--
+Coded by: Sanja Panic
+    Date: 28.08.2020
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link href="./style.css" rel="stylesheet" />
+    <meta charset="utf-8">
+</head>
+<body>
+    <div id="calculator-container">
+        <div id="screen">
+            <p id="previous"></p>
+            <p id="current"></p>
+        </div>
+        <div id="body">
+            <div id="numbers">
+                <button onclick="appendToScreen(this.id)" id="7">7</button>
+                <button onclick="appendToScreen(this.id)" id="8">8</button>
+                <button onclick="appendToScreen(this.id)" id="9">9</button>
+                <button onclick="appendToScreen(this.id)" id="4">4</button>
+                <button onclick="appendToScreen(this.id)" id="5">5</button>
+                <button onclick="appendToScreen(this.id)" id="6">6</button>
+                <button onclick="appendToScreen(this.id)" id="1">1</button>
+                <button onclick="appendToScreen(this.id)" id="2">2</button>
+                <button onclick="appendToScreen(this.id)" id="3">3</button>
+                <button onclick="appendToScreen(this.id)" id=".">.</button>
+                <button onclick="appendToScreen(this.id)" id="0">0</button>
+                <button onclick="compute()">=</button>
+            </div>
+            <div id="operations">
+                <button onclick="clearEverything()">CE</button>
+                <button onclick="operationsFn(this.id)" id="/">/</button>
+                <button onclick="operationsFn(this.id)" id="*">*</button>
+                <button onclick="operationsFn(this.id)" id="-">-</button>
+                <button onclick="operationsFn(this.id)" id="+">+</button>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

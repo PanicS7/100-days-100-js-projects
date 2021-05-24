@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Calculator",
     "\\Modal"
   ],
-  "SelectedNode": "\\Modal\\app.js",
+  "SelectedNode": "\\Calculator\\app.js",
   "PreviewInSolutionExplorer": false
 }
