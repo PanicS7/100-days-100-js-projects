@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Calculator",
-    "\\Modal"
+    "\\Modal",
+    "\\Tip Calculator"
   ],
-  "SelectedNode": "\\Calculator\\app.js",
+  "SelectedNode": "\\Tip Calculator\\app.js",
   "PreviewInSolutionExplorer": false
 }

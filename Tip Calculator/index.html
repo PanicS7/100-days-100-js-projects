@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div id="container" >
+        <h1>TIP CALCULATOR</h1>
+        <div id="body">
+            <!-- Alert if user dont fill data and click calculate -->
+            <div class="alertForBlank">
+                <p id="alertForBill"></p>
+                <p id="alertForUser"></p>
+                <p id="alertForService"></p>
+            </div>
+            <div class="question">
+                <p>How Much Was Your Bill ?</p>
+                <p>
+                    <i class="fas fa-dollar-sign"></i>
+                    <input id="billAmount" type="number" />
+                </p>
+            </div>
+            <div class="question">
+                <p>How Many People Sharing The Bill ?</p>
+                <p>
+                    <i class="fas fa-users"></i>
+                    <input id="numOfPeople" type="number" />
+                </p>
+            </div>
+            <div class="question">
+                <label for="service">How Was Your Service:</label>
+                <select name="service" id="service">
+                    <option value="choose">Choose..</option>
+                    <option value="great">Great - 20%</option>
+                    <option value="good">Good - 10%</option>
+                    <option value="bad">Bad - 2%</option>
+                </select>
+            </div>
+
+            <div id="btn">
+                <button>Calculate</button>
+            </div>
+
+            <img src="./loading.gif" />
+            <!-- When user click calculate -->
+            <div class="tip">
+                <p>Tip Amount: $ <span id="tipAmount"></span></p>
+                <p>Total Amount: $ <span id="totalAmount"></span></p>
+                <p>Each Person Owes: $ <span id="perPerson"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
