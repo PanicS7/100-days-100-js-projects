@@ -58,6 +58,21 @@ DAY 10:
 	20.05.2021
 	https://jsbeginners.com/modal-javascript-project/
 </pre>
+<pre>
+DAY 11:
+</pre>
+<pre>
+DAY 12:
+</pre>
+<pre>
+DAY 13:
+</pre>
+<pre>
+DAY 14:
+	Calculator
+	24.05.2021
+	https://jsbeginners.com/calculator-javascript-project/
+</pre>
 	
 
 
