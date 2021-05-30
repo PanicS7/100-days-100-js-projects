@@ -83,6 +83,7 @@ DAY 10:
 	Tip Calculator
 	29.05.2021
 	https://jsbeginners.com/tip-form-javascript-project/
+	-- I used SCSS for styling
 	-- You should be able to use the calculator to enter an amount of a bill, the number of people who will split the bill, 
 		and a selection as to how the service went.
 	-- If a user forgets to add input or if the input is blank (or less than zero), 
