@@ -1,0 +1,64 @@
+﻿// Colors
+$grey: #dcdcdc; 
+$green: #28a745;
+$white: #fff;
+$red: #dc3545;
+
+// Created list of todo items
+#list {
+  width: 60vw;
+  display: flex;
+  margin: auto;
+  background-color: $grey;
+
+  p {
+    padding: 0 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+    i {
+      font-size: 30px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+
+  // paragraph with text
+  #para {
+    width: 90%;
+    word-break: break-word;
+  }
+}
+
+// Input and buttons
+#todoList {
+  text-align: center;
+  width: 100vw;
+  display: block;
+  margin: 20px 0;
+
+  input {
+    padding: 10px;
+  }
+
+  button {
+    color: $white;
+    border: 0;
+    padding: 10px;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+
+  #add {
+    background-color: $green;
+  }
+  #clear {
+    background-color: $red;
+  }
+}
+

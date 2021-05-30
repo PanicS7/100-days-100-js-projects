@@ -90,3 +90,16 @@ DAY 10:
 		feedback should be alerted to the user and then go away after few seconds.
 	-- During the calculation, a GIF animation should show for a couple seconds before the user's answer show up on the screen.
 	-- After about few seconds, the calculator should reset all forms.
+
+==========================================================================
+DAY 11:
+	To-Do app
+	30.05.2021
+	https://jsbeginners.com/todo-list-javascript-project-v1/
+	-- You should be able to add new items and use the buttons to toggle completed items, edit items, or delete items.
+	-- The clear button should clear your page.
+	** TO ADD: 
+		1. If you try to add an item without text, you should receive an alert telling the user to add an item.
+		2. Data should persist since this app uses local storage.
+					
+==========================================================================

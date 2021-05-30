@@ -1,0 +1,49 @@
+#list {
+  width: 60vw;
+  display: flex;
+  margin: auto;
+  background-color: #dcdcdc;
+}
+#list p {
+  padding: 0 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#list p i {
+  font-size: 30px;
+}
+#list p:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+#list #para {
+  width: 90%;
+  word-break: break-word;
+}
+
+#todoList {
+  text-align: center;
+  width: 100vw;
+  display: block;
+  margin: 20px 0;
+}
+#todoList input {
+  padding: 10px;
+}
+#todoList button {
+  color: #fff;
+  border: 0;
+  padding: 10px;
+}
+#todoList button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+#todoList #add {
+  background-color: #28a745;
+}
+#todoList #clear {
+  background-color: #dc3545;
+}
+
+/*# sourceMappingURL=style.css.map */
