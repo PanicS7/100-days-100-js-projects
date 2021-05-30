@@ -9,7 +9,7 @@
    24.05.2021 - if you continue to calculate after seeing "Cant divide with 0" output will be NAN - not a number - now calculator clear screen
 
     feature idea:
-    add clear last character/number 
+    add clear for last character/number 
 */
 
 

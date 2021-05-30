@@ -1,0 +1,91 @@
+DAY 1: 
+	Change Background Color JavaScript Project
+		11.05.2021
+		https://jsbeginners.com/change-background-color-project/
+	-- Change background on click using rgb colors
+
+	Change HEX Background Color JavaScript Project
+		11.05.2021
+		https://jsbeginners.com/hex-change-background-color-project/
+	-- Change background on click using hex colors
+
+==========================================================================
+DAY 2: 
+	Random Quotes JavaScript Project
+		12.05.2021
+		https://jsbeginners.com/random-quotes-project/
+	--  When you click on the “Generate” button, you should see a new random quote and the corresponding author.
+
+==========================================================================
+DAY 3: 
+	Pass the Message Project
+		13.05.2021
+		https://jsbeginners.com/pass-the-message-project/
+	-- After you enter text into the input box, upon pressing the “Enter” key, your message should show up in the “Last Message Delivered” Section.
+    -- After the “Enter” key is pressed, the text box value should return to an empty text box.
+    -- If input is larger then 250 charachers alert should show
+	
+==========================================================================
+DAY 4: 
+	Counter Project
+		14.05.2021
+		https://jsbeginners.com/counter-project/
+	-- The default counter begins at the number 0.
+	-- When you click “Lower Count”, the counter should decrement by 1.  If the count goes below 0, the number should change to the color red.
+	-- When you click “Add Count”, the counter should increment by 1. If the count goes above 0, the number should change to the color green.
+		
+==========================================================================
+DAY 5: 
+	Background Image Slider JavaScript Project
+		15.05.2021
+		https://jsbeginners.com/background-image-slider-project/
+	-- A default image should be displayed when you load the page.
+	-- When you click the “left” button, one of five images should display, all the way until each of the five numbers display in sequence.
+	-- Repeat step 2 for the “right” button.
+	-- If the user continues to click the left or right button, the images should reset once it passes the first image in the array.
+	
+==========================================================================
+DAY 6: 
+	Testimonials JavaScript Project
+		16.05.2021
+		https://jsbeginners.com/testimonials-project/
+	-- A default image,name and testimonials should be displayed when you load the page.
+	-- When you click the “left” button, one of five client testimonials should display, all the way until each of the clients testimonials display in sequence.
+	-- Repeat step 2 for the “right” button.
+	-- If the user continues to click the left or right button, the images should reset once it passes the first client testimonial
+		
+==========================================================================
+DAY 7: 
+	Filter JavaScript Project
+		18.05.2021
+		https://jsbeginners.com/filter-project/
+	-- When you click on a given button, only the described items should show in the store.
+	-- When you type on search bar and click enter or search icon, only the described items should show in the store.
+			
+==========================================================================
+DAY 8:
+	Modal JavaScript Project
+	20.05.2021
+	https://jsbeginners.com/modal-javascript-project/
+	-- When you click on a given item, the modal should pop up, displaying the image of the item clicked.
+	-- When you click the close button, the modal should close.
+	-- When you click the left and right buttons, all images should cycle through the modal container.
+				
+==========================================================================
+DAY 9:
+	Calculator
+	24.05.2021
+	https://jsbeginners.com/calculator-javascript-project/
+	-- My old code with few bug fixes, funcional basic calculator
+					
+==========================================================================
+DAY 10:
+	Tip Calculator
+	29.05.2021
+	https://jsbeginners.com/tip-form-javascript-project/
+	-- You should be able to use the calculator to enter an amount of a bill, the number of people who will split the bill, 
+		and a selection as to how the service went.
+	-- If a user forgets to add input or if the input is blank (or less than zero), 
+		feedback should be alerted to the user and then go away after few seconds.
+	-- During the calculation, a GIF animation should show for a couple seconds before the user's answer show up on the screen.
+	-- After about few seconds, the calculator should reset all forms.
