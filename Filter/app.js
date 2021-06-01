@@ -93,7 +93,7 @@ allBtn.addEventListener("click", function () {
 
 // Custom search
 function customSearch() {
-    var searchText = document.querySelector("input").value;
+    var searchText = document.querySelector("input").value.toLowerCase();
     var cardsList = []; // used as plaseholder for all cards what have searched text in it
     var filteredList = []; // removed duplicates from unsearchedCards
     var unsearchedCards = []; // all ther cards - used to add "hide" class

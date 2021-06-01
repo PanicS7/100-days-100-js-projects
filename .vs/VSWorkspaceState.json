@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Modal",
-    "\\Tip Calculator"
+    "\\Cart"
   ],
-  "SelectedNode": "\\Tip Calculator\\app.js",
+  "SelectedNode": "\\Cart\\app.js",
   "PreviewInSolutionExplorer": false
 }

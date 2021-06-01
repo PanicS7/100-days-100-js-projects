@@ -86,7 +86,7 @@ function startApp() {
     clearBtn.addEventListener("click", function () {
         // remove each list from todo Body
         for (let i = 0; i < todoBody.childNodes.length; i++) {
-            todoBody.childNodes[i].remove()
+            todoBody.childNodes[i].remove();
         }
     });
 }
