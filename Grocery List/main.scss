@@ -1,0 +1,66 @@
+﻿$light-blue: #b9f0f6;
+$dark-blue: #0c46bd;
+$black: #000;
+$white: #fff;
+$green: #28a745;
+
+@mixin common {
+  margin: auto;
+  text-align: center;
+  width: 60vw;
+  border: 2px solid $black;
+  margin-top: 40px;
+}
+body {
+  background-color: $light-blue;
+
+  button {
+    cursor: pointer;
+    width: 80%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: $green;
+    border: 0;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 16px;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+#addItemsContainer {
+  @include common;
+  height: 250px;
+  background-color: $dark-blue;
+  color: $white;
+
+  input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+#listContainer {
+  padding: 0 20px;
+  @include common;
+  //min-height: 150px;
+  background-color: $white;
+  color: $dark-blue;
+  .itemContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  button {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #addItemsContainer, #listContainer {
+    width: 90vw;
+  }
+}

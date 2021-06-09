@@ -1,0 +1,60 @@
+body {
+  background-color: #b9f0f6;
+}
+body button {
+  cursor: pointer;
+  width: 80%;
+  padding: 10px;
+  font-weight: bold;
+  background-color: #28a745;
+  border: 0;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 16px;
+}
+body button:hover {
+  opacity: 0.9;
+}
+
+#addItemsContainer {
+  margin: auto;
+  text-align: center;
+  width: 60vw;
+  border: 2px solid #000;
+  margin-top: 40px;
+  height: 250px;
+  background-color: #0c46bd;
+  color: #fff;
+}
+#addItemsContainer input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+#listContainer {
+  padding: 0 20px;
+  margin: auto;
+  text-align: center;
+  width: 60vw;
+  border: 2px solid #000;
+  margin-top: 40px;
+  background-color: #fff;
+  color: #0c46bd;
+}
+#listContainer .itemContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#listContainer button {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+  #addItemsContainer, #listContainer {
+    width: 90vw;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Cart"
+    "\\Filter",
+    "\\Grocery List",
+    "\\Tip Calculator",
+    "\\To-Do App"
   ],
-  "SelectedNode": "\\Cart\\app.js",
+  "SelectedNode": "\\Grocery List\\app.js",
   "PreviewInSolutionExplorer": false
 }

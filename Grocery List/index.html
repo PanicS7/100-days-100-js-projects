@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Grocery List</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="addItemsContainer">
+        <div>
+            <p id="addAlert"></p>
+            <p id="addedAlert"></p>
+        </div>
+        <h1>Add Grocery Items</h1>
+        <input type="text" placeholder="Type Here.." />
+        <br />
+        <button id="submit">Submit Here</button>
+    </div>
+    <div id="listContainer">
+        <div>
+            <p id="clearAlertAll"></p>
+            <p id="clearAlertNoMore"></p>
+            <p id="removeAlert"></p>
+        </div>
+        <h1>Grocery Items</h1>
+        <div id="list"></div>
+        <button id="clear">Clear Items</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
