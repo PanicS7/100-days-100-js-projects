@@ -1,0 +1,123 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+// Colors
+$color-orange: #c26104;
+$color-white: #fff;
+$color-yellow: #ffd800;
+$color-green: #16a043;
+
+#alertMsg {
+  color: $color-green;
+  font-size: 20px;
+}
+#loadingContainer {
+  width: 100vw;
+}
+#container {
+  width: 100vw;
+  text-align: center;
+
+  header, main {
+    width: 90%;
+    margin: auto;
+
+    h1 {
+      margin: 20px 0;
+    }
+
+    #inputs {
+      width: 100%;
+
+      .input-group {
+        border: 2px solid $color-orange;
+        border-radius: 7px;
+        margin: 10px 0;
+        display: flex;
+
+        i {
+          background: $color-orange;
+          color: $color-white;
+          padding: 10px;
+          width: 50px;
+        }
+
+        input {
+          width: 99%;
+          padding: 5px 10px;
+          border: 0;
+        }
+      }
+    }
+
+    button {
+      width: 100%;
+      opacity: 0.3;
+      padding: 10px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: $color-orange;
+        color: $color-white;
+      }
+    }
+  }
+
+  main {
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .courseContainer {
+      width: 250px;
+      border: 2px solid grey;
+      border-radius: 7px;
+      box-sizing: content-box;
+      margin: 20px auto;
+
+      .imageContainer {
+        width: 100%;
+        margin-bottom: 10px;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .courseText {
+        text-align: left;
+        margin: 5px 10px;
+
+        p {
+          margin: 10px 0;
+
+          .name, .course, .author {
+            padding: 3px;
+            margin-right: 3px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 13px;
+          }
+
+          .name {
+            background: $color-yellow;
+          }
+
+          .course {
+            background: $color-green;
+            color: $color-white;
+          }
+
+          .author {
+            background: red;
+            color: $color-white;
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,11 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Course Form",
+    "\\Course Form\\img",
     "\\Filter",
-    "\\Grocery List",
-    "\\Tip Calculator",
-    "\\To-Do App"
+    "\\HEX Change Background Color"
   ],
-  "SelectedNode": "\\Grocery List\\app.js",
+  "SelectedNode": "\\Course Form\\app.js",
   "PreviewInSolutionExplorer": false
 }

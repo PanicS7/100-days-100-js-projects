@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Course Form</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Get A Free Course</h1>
+            <p id="alertMsg"></p>
+            <div id="inputs">
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input id="customerName" type="text" placeholder="Customer Name" />
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-book"></i>
+                    <input id="course" type="text" placeholder="Course" />
+                </div>
+                <div class="input-group">
+                    <i class="fas fa-user-circle"></i>
+                    <input id="author" type="text" placeholder="Author" />
+                </div>
+            </div>
+            <button id="submit">Submit</button>
+        </header>
+        <main>
+            <div id="loadingContainer"><img id="loadingImg" src="" /></div>
+            <div class="courseContainer">
+                <div class="imageContainer">
+                    <img src="./img/cust-0.jpg" alt="" />
+                </div>
+                <div class="courseText">
+                    <p><span class="name">Name:</span> John Anderson</p>
+                    <p><span class="course">Course:</span> Css Basics</p>
+                    <p><span class="author">Author:</span> John Anderson</p>
+                </div>
+
+            </div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
