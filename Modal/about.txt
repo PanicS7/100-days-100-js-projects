@@ -1,2 +1,7 @@
 Modal JavaScript Project
 https://jsbeginners.com/modal-javascript-project/
+
+	-- When you click on a given item, the modal should pop up, displaying the image of the item clicked.
+	-- When you click the close button, the modal should close.
+	-- When you click the left and right buttons, all images should cycle through the modal container.
+	^^ 31.05.2021 fixed bug, search now work even if user type in upper case

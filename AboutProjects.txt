@@ -115,5 +115,26 @@ DAY 12 and 13:
 	-- The total amount and price of the added items will show in the running total.
 	-- You can delete items and cart will updade itself
 	-- clear items button will clear entire cart and restart total count and price
-	!! NOTE: checkout button is just for estetic reason			
+	!! NOTE: checkout button is just for estetic reason		
+	** TO ADD:
+		1. Local storage
+==========================================================================
+DAY 14 :
+	14. Grocery List
+	09.06.2021
+	https://jsbeginners.com/javascript-grocery-list-project-2/
+	-- Create a list that accepts an item
+	-- If the user tries to submit a blank item, the top container in the project alerts the user to add an item with an “alert” message. 
+		If the user successfully adds an item, the top container alerts the user with a “success” message.
+	-- Every time an item is added, the item is displayed in the DOM
+	-- If the user clicks the “clear items” button, all items will be removed from the DOM
+	-- If the user clicks just one of the delete item icons, only that item will be removed.
+	** TO ADD:
+		1. Local storage
+==========================================================================
+DAY 15 :
+	15. Course Form
+	17.06.2021
+	https://jsbeginners.com/javascript-course-form-project/
+	-- Use JQuery to display user generated content to the page.
 ==========================================================================

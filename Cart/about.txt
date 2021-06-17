@@ -1,2 +1,11 @@
-Modal JavaScript Project
-https://jsbeginners.com/modal-javascript-project/
+https://jsbeginners.com/grocery-cart-javascript-project/
+
+	-- When you click on a given cart button/icon on bottom right corrner of item, you can see it when you hover over item, 
+		a JavaScript alert should pop up, letting you know that your item was added.
+	-- Added items will appear in the cart section in the top right-hand corner.
+	-- The total amount and price of the added items will show in the running total.
+	-- You can delete items and cart will updade itself
+	-- clear items button will clear entire cart and restart total count and price
+	!! NOTE: checkout button is just for estetic reason		
+	** TO ADD:
+		1. Local storage

@@ -1,2 +1,7 @@
 Testimonials JavaScript Project
 https://jsbeginners.com/testimonials-project/
+
+	-- A default image,name and testimonials should be displayed when you load the page.
+	-- When you click the “left” button, one of five client testimonials should display, all the way until each of the clients testimonials display in sequence.
+	-- Repeat step 2 for the “right” button.
+	-- If the user continues to click the left or right button, the images should reset once it passes the first client testimonial

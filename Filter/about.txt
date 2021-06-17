@@ -1,6 +1,10 @@
 Filter project
 https://jsbeginners.com/filter-project/
 
+	-- When you click on a given button, only the described items should show in the store.
+	-- When you type on search bar and click enter or search icon, only the described items should show in the store.
+	^^ 31.05.2021 fixed bug, search now work even if user type in upper case
+
 new things learned 
 how to use [data] to access elements in js
 how to use dataset

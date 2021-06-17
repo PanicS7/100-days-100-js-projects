@@ -1,0 +1,13 @@
+Project Idea:
+https://jsbeginners.com/javascript-grocery-list-project-2/
+	## Technology:
+		HTML, CSS, Java Script, SCSS
+
+	-- Create a list that accepts an item
+	-- If the user tries to submit a blank item, the top container in the project alerts the user to add an item with an “alert” message. 
+		If the user successfully adds an item, the top container alerts the user with a “success” message.
+	-- Every time an item is added, the item is displayed in the DOM
+	-- If the user clicks the “clear items” button, all items will be removed from the DOM
+	-- If the user clicks just one of the delete item icons, only that item will be removed.
+	** TO ADD:
+		1. Local storage

@@ -1,0 +1,7 @@
+Project Idea:
+https://jsbeginners.com/javascript-course-form-project/
+
+	## Technology:
+		HTML,CSS,JQuery,SCSS
+
+	-- Use JQuery to display user generated content to the page.

@@ -1,0 +1,10 @@
+Project Idea:
+https://jsbeginners.com/todo-list-javascript-project-v1/
+	## Tehnology: 
+		HTML, CSS, Java Script, SCSS
+
+	-- You should be able to add new items and use the buttons to toggle completed items, edit items, or delete items.
+	-- The clear button should clear your page.
+	** TO ADD: 
+		1. If you try to add an item without text, you should receive an alert telling the user to add an item.
+		2. Data should persist since this app uses local storage.

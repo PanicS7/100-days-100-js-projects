@@ -1,4 +1,4 @@
 Original project idea:
 https://jsbeginners.com/change-background-color-project/
 
-I maked that color is selected automaticly (using rgb colors), not by using list of fixed value.
+Color is selected automaticly (using rgb colors)
