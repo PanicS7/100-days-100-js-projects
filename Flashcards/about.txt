@@ -1,5 +1,7 @@
 FlashCards
 https://jsbeginners.com/flashcard-javascript-oop-project/
+Technology:
+	HTML,SCSS,Jquery
 
 	-- When user click on "Add Question" modal should pop up
 	-- In modal user can type question and answer

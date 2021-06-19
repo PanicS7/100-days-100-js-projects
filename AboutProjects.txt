@@ -1,43 +1,44 @@
-DAY 1: 
 	1. Change Background Color JavaScript Project
 		11.05.2021
+		HTML,CSS,JavaScript
 		https://jsbeginners.com/change-background-color-project/
 	-- Change background on click using rgb colors
 
 	2. Change HEX Background Color JavaScript Project
 		11.05.2021
+		HTML,CSS,JavaScript
 		https://jsbeginners.com/hex-change-background-color-project/
 	-- Change background on click using hex colors
 
 ==========================================================================
-DAY 2: 
 	3. Random Quotes JavaScript Project
 		12.05.2021
+		HTML,CSS,JavaScript
 		https://jsbeginners.com/random-quotes-project/
 	--  When you click on the “Generate” button, you should see a new random quote and the corresponding author.
 
 ==========================================================================
-DAY 3: 
 	4. Pass the Message Project
 		13.05.2021
+		HTML,CSS,JavaScript
 		https://jsbeginners.com/pass-the-message-project/
 	-- After you enter text into the input box, upon pressing the “Enter” key, your message should show up in the “Last Message Delivered” Section.
     -- After the “Enter” key is pressed, the text box value should return to an empty text box.
     -- If input is larger then 250 charachers alert should show
 	
 ==========================================================================
-DAY 4: 
 	5. Counter Project
 		14.05.2021
+		HTML,CSS,JavaScript
 		https://jsbeginners.com/counter-project/
 	-- The default counter begins at the number 0.
 	-- When you click “Lower Count”, the counter should decrement by 1.  If the count goes below 0, the number should change to the color red.
 	-- When you click “Add Count”, the counter should increment by 1. If the count goes above 0, the number should change to the color green.
 		
 ==========================================================================
-DAY 5: 
 	6. Background Image Slider JavaScript Project
 		15.05.2021
+		HTML,CSS,JavaScript
 		https://jsbeginners.com/background-image-slider-project/
 	-- A default image should be displayed when you load the page.
 	-- When you click the “left” button, one of five images should display, all the way until each of the five numbers display in sequence.
@@ -45,9 +46,9 @@ DAY 5:
 	-- If the user continues to click the left or right button, the images should reset once it passes the first image in the array.
 	
 ==========================================================================
-DAY 6: 
 	7. Testimonials JavaScript Project
 		16.05.2021
+		HTML,CSS,JavaScript
 		https://jsbeginners.com/testimonials-project/
 	-- A default image,name and testimonials should be displayed when you load the page.
 	-- When you click the “left” button, one of five client testimonials should display, all the way until each of the clients testimonials display in sequence.
@@ -55,18 +56,18 @@ DAY 6:
 	-- If the user continues to click the left or right button, the images should reset once it passes the first client testimonial
 		
 ==========================================================================
-DAY 7: 
 	8. Filter JavaScript Project
 		18.05.2021
+		HTML,CSS,JavaScript
 		https://jsbeginners.com/filter-project/
 	-- When you click on a given button, only the described items should show in the store.
 	-- When you type on search bar and click enter or search icon, only the described items should show in the store.
 	^^ 31.05.2021 fixed bug, search now work even if user type in upper case
 			
 ==========================================================================
-DAY 8:
 	9. Modal JavaScript Project
 	20.05.2021
+	HTML,CSS,JavaScript
 	https://jsbeginners.com/modal-javascript-project/
 	-- When you click on a given item, the modal should pop up, displaying the image of the item clicked.
 	-- When you click the close button, the modal should close.
@@ -74,18 +75,17 @@ DAY 8:
 	^^ 31.05.2021 fixed bug, search now work even if user type in upper case
 	
 ==========================================================================
-DAY 9:
 	10. Calculator
 	24.05.2021
+	HTML,CSS,JavaScript
 	https://jsbeginners.com/calculator-javascript-project/
 	-- My old code with few bug fixes, funcional basic calculator
 					
 ==========================================================================
-DAY 10:
 	11. Tip Calculator
 	29.05.2021
+	HTML,CSS/SCSS,JavaScript
 	https://jsbeginners.com/tip-form-javascript-project/
-	-- I used SCSS for styling
 	-- You should be able to use the calculator to enter an amount of a bill, the number of people who will split the bill, 
 		and a selection as to how the service went.
 	-- If a user forgets to add input or if the input is blank (or less than zero), 
@@ -94,9 +94,9 @@ DAY 10:
 	-- After about few seconds, the calculator should reset all forms.
 
 ==========================================================================
-DAY 11:
 	12. To-Do app
 	30.05.2021
+	HTML,CSS/SCSS,JavaScript
 	https://jsbeginners.com/todo-list-javascript-project-v1/
 	-- You should be able to add new items and use the buttons to toggle completed items, edit items, or delete items.
 	-- The clear button should clear your page.
@@ -105,9 +105,9 @@ DAY 11:
 		2. Data should persist since this app uses local storage.
 					
 ==========================================================================
-DAY 12 and 13:
 	13. Shoping Cart
 	31.05.2021 and 01.06.2021
+	HTML,CSS,JavaScript
 	https://jsbeginners.com/grocery-cart-javascript-project/
 	-- When you click on a given cart button/icon on bottom right corrner of item, you can see it when you hover over item, 
 		a JavaScript alert should pop up, letting you know that your item was added.
@@ -119,9 +119,9 @@ DAY 12 and 13:
 	** TO ADD:
 		1. Local storage
 ==========================================================================
-DAY 14 :
 	14. Grocery List
 	09.06.2021
+	HTML,CSS/SCSS,JavaScript
 	https://jsbeginners.com/javascript-grocery-list-project-2/
 	-- Create a list that accepts an item
 	-- If the user tries to submit a blank item, the top container in the project alerts the user to add an item with an “alert” message. 
@@ -132,9 +132,21 @@ DAY 14 :
 	** TO ADD:
 		1. Local storage
 ==========================================================================
-DAY 15 :
 	15. Course Form
 	17.06.2021
+	HTML,CSS/SCSS,JavaScript/JQuery
 	https://jsbeginners.com/javascript-course-form-project/
 	-- Use JQuery to display user generated content to the page.
 ==========================================================================
+	16. FlashCards
+	18.06.2021 and 19.06.2021
+	HTML,CSS/SCSS,JavaScript/JQuery
+	https://jsbeginners.com/flashcard-javascript-oop-project/
+
+	-- When user click on "Add Question" modal should pop up
+	-- In modal user can type question and answer
+	-- If user click "X" modal should close
+	-- If user click "save" with blank inputs alert should pop up
+	-- When user click "save" and both inputs have value data will show as flashcard 
+	-- Inside flashcard if link is clicked modal with answer will be visible
+	-- User can edit and delete each flashcard
