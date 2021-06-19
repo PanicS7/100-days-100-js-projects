@@ -1,0 +1,10 @@
+FlashCards
+https://jsbeginners.com/flashcard-javascript-oop-project/
+
+	-- When user click on "Add Question" modal should pop up
+	-- In modal user can type question and answer
+	-- If user click "X" modal should close
+	-- If user click "save" with blank inputs alert should pop up
+	-- When user click "save" and both inputs have value data will show as flashcard 
+	-- Inside flashcard if link is clicked modal with answer will be visible
+	-- User can edit and delete each flashcard

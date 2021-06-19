@@ -1,0 +1,147 @@
+body {
+  background-color: #f5f5f5;
+}
+
+#container {
+  width: 80vw;
+  margin: auto;
+}
+#container header {
+  margin: 20px 0;
+}
+#container header button {
+  border: 1px solid #fd7e14;
+  border-radius: 4px;
+  color: #fd7e14;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#container header button:hover {
+  background-color: #fd7e14;
+  color: #f5f5f5;
+}
+
+#questionModal {
+  width: 40vw;
+  border: 1px solid #fd7e14;
+  border-radius: 4px;
+  padding: 15px;
+  display: none;
+}
+#questionModal #alert {
+  display: none;
+  color: #f5f5f5;
+  background-color: #f00;
+  padding: 10px;
+}
+#questionModal div {
+  display: flex;
+  justify-content: space-between;
+}
+#questionModal div i {
+  color: #fd7e14;
+  font-size: 30px;
+}
+#questionModal div i:hover {
+  cursor: pointer;
+  color: #f00;
+}
+#questionModal textarea {
+  width: 100%;
+  height: 4rem;
+}
+#questionModal button {
+  border: 2px solid #096943;
+  border-radius: 4px;
+  color: #096943;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 30vw;
+  margin-top: 20px;
+}
+#questionModal button:hover {
+  background-color: #096943;
+  color: #f5f5f5;
+}
+
+#flashcardsContainer {
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+#flashcardsContainer .flashcard {
+  margin: 20px 5px;
+  background-color: #fff;
+  padding: 10px;
+  width: 30%;
+  word-wrap: break-word;
+  border: 1px solid #808080;
+  border-radius: 7px;
+}
+#flashcardsContainer .flashcard a {
+  color: #074992;
+  cursor: pointer;
+}
+#flashcardsContainer .flashcard p {
+  display: none;
+}
+#flashcardsContainer .flashcard .btnGroup {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#flashcardsContainer .flashcard .btnGroup button {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #fff;
+}
+#flashcardsContainer .flashcard .btnGroup .editBtn {
+  color: #096943;
+  border-color: #096943;
+}
+#flashcardsContainer .flashcard .btnGroup .editBtn:hover {
+  color: #f5f5f5;
+  background-color: #096943;
+}
+#flashcardsContainer .flashcard .btnGroup .deleteBtn {
+  color: #f00;
+  border-color: #f00;
+}
+#flashcardsContainer .flashcard .btnGroup .deleteBtn:hover {
+  color: #f5f5f5;
+  background-color: #f00;
+}
+
+@media screen and (max-width: 767px) {
+  #questionModal {
+    width: 80vw;
+  }
+
+  #flashcardsContainer {
+    width: 90vw;
+  }
+  #flashcardsContainer .flashcard {
+    width: 90vw;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #questionModal {
+    width: 80vw;
+  }
+
+  #flashcardsContainer {
+    width: 100vw;
+  }
+  #flashcardsContainer .flashcard {
+    width: 40%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

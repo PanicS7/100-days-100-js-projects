@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FlashCards</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Flashcards</h1>
+            <button id="addQuestion">Add Question</button>
+        </header>
+        <section id="questionModal">
+            <p id="alert">Cannot Add Empty Values</p>
+            <div>
+                <p>Question</p>
+                <i class="fas fa-window-close"></i>
+            </div>
+            <textarea id="textQuestion"></textarea>
+            <p>Answer</p>
+            <textarea id="textAnswer"></textarea>
+            <button id="submit">Save</button>
+        </section>
+        <section id="flashcardsContainer"></section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
