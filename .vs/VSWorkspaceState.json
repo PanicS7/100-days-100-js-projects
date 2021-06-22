@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Course Form",
-    "\\Course Form\\img",
-    "\\Flashcards"
+    "\\Budget application",
+    "\\Modal",
+    "\\Pass The Message",
+    "\\Testimonials",
+    "\\Tip Calculator",
+    "\\To-Do App"
   ],
-  "SelectedNode": "\\Flashcards",
+  "SelectedNode": "\\Budget application\\app.js",
   "PreviewInSolutionExplorer": false
 }

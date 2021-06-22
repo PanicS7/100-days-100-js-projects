@@ -1,0 +1,10 @@
+Budget app
+	https://jsbeginners.com/javascript-budget-app/
+	Technology: HTML,CSS/LESS,JavaScript/JQuery
+
+	-- When user add budget - value below icons of budget and balance should change
+	-- When user add expense - expense value and balance should change
+	-- Value should change color if it is negative to red, and if it is positive to green
+	-- Expense title and value should show in list
+	-- User can edit this list and remove each expense
+	-- If expense is deleted or edited value of expense and balance should change

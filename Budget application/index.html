@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Budget App</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>BUDGET APP</h1>
+        </header>
+        <main>       
+            <div id="budgetForm"> 
+                <p id="budgetAlert"></p>
+                <h2>Please Enter Your Budget</h2>
+                <input type="number" />
+                <button id="calculate">Calculate</button>
+            </div>
+            <div id="app">
+                <div id="budgetContainer">
+                    <h2>BUDGET</h2>
+                    <i class="fas fa-money-bill-alt"></i>
+                    <p id="budgetValueContainer">$<span id="budgetValue">0</span></p>
+                </div>
+                <div id="expensesContainer">
+                    <h2>EXPENSES</h2>
+                    <i class="fas fa-credit-card"></i>
+                    <p id="expensesValueContainer">$<span id="expensesValue">0</span></p>
+                </div>
+                <div id="balanceContainer">
+                    <h2>BALANCE</h2>
+                    <i class="fas fa-dollar-sign"></i>
+                    <p id="balanceValueContainer">$<span id="balanceValue">0</span></p>
+                </div>
+            </div>
+            <div id="expenseForm">
+                <p id="expenseAlert"></p>
+                <h2>Please Enter Your Expense Title</h2>
+                <input id="expenseTitle" type="text" />
+                <h2>Please Enter Expense Amount</h2>
+                <input id="expense" type="number" />
+                <button id="addExpense">Add Expense</button>
+            </div>
+            <div id="addedData">
+                <h3>Expense Title</h3>
+                <h3>Expense Value</h3>
+                <h3></h3>
+                <div id="addedDataContainer"></div>
+            </div>
+        </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
