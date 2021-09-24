@@ -15,15 +15,15 @@
 		12.05.2021
 		HTML,CSS,JavaScript
 		https://jsbeginners.com/random-quotes-project/
-	--  When you click on the “Generate” button, you should see a new random quote and the corresponding author.
+	--  When you click on the â€œGenerateâ€ button, you should see a new random quote and the corresponding author.
 
 ==========================================================================
 	4. Pass the Message Project
 		13.05.2021
 		HTML,CSS,JavaScript
 		https://jsbeginners.com/pass-the-message-project/
-	-- After you enter text into the input box, upon pressing the “Enter” key, your message should show up in the “Last Message Delivered” Section.
-    -- After the “Enter” key is pressed, the text box value should return to an empty text box.
+	-- After you enter text into the input box, upon pressing the â€œEnterâ€ key, your message should show up in the â€œLast Message Deliveredâ€ Section.
+    -- After the â€œEnterâ€ key is pressed, the text box value should return to an empty text box.
     -- If input is larger then 250 charachers alert should show
 	
 ==========================================================================
@@ -32,8 +32,8 @@
 		HTML,CSS,JavaScript
 		https://jsbeginners.com/counter-project/
 	-- The default counter begins at the number 0.
-	-- When you click “Lower Count”, the counter should decrement by 1.  If the count goes below 0, the number should change to the color red.
-	-- When you click “Add Count”, the counter should increment by 1. If the count goes above 0, the number should change to the color green.
+	-- When you click â€œLower Countâ€, the counter should decrement by 1.  If the count goes below 0, the number should change to the color red.
+	-- When you click â€œAdd Countâ€, the counter should increment by 1. If the count goes above 0, the number should change to the color green.
 		
 ==========================================================================
 	6. Background Image Slider JavaScript Project
@@ -41,8 +41,8 @@
 		HTML,CSS,JavaScript
 		https://jsbeginners.com/background-image-slider-project/
 	-- A default image should be displayed when you load the page.
-	-- When you click the “left” button, one of five images should display, all the way until each of the five numbers display in sequence.
-	-- Repeat step 2 for the “right” button.
+	-- When you click the â€œleftâ€ button, one of five images should display, all the way until each of the five numbers display in sequence.
+	-- Repeat step 2 for the â€œrightâ€ button.
 	-- If the user continues to click the left or right button, the images should reset once it passes the first image in the array.
 	
 ==========================================================================
@@ -51,8 +51,8 @@
 		HTML,CSS,JavaScript
 		https://jsbeginners.com/testimonials-project/
 	-- A default image,name and testimonials should be displayed when you load the page.
-	-- When you click the “left” button, one of five client testimonials should display, all the way until each of the clients testimonials display in sequence.
-	-- Repeat step 2 for the “right” button.
+	-- When you click the â€œleftâ€ button, one of five client testimonials should display, all the way until each of the clients testimonials display in sequence.
+	-- Repeat step 2 for the â€œrightâ€ button.
 	-- If the user continues to click the left or right button, the images should reset once it passes the first client testimonial
 		
 ==========================================================================
@@ -105,7 +105,7 @@
 		2. Data should persist since this app uses local storage.
 					
 ==========================================================================
-	13. Shoping Cart
+	13. Shopping Cart
 	01.06.2021
 	HTML,CSS,JavaScript
 	https://jsbeginners.com/grocery-cart-javascript-project/
@@ -124,10 +124,10 @@
 	HTML,CSS/SCSS,JavaScript
 	https://jsbeginners.com/javascript-grocery-list-project-2/
 	-- Create a list that accepts an item
-	-- If the user tries to submit a blank item, the top container in the project alerts the user to add an item with an “alert” message. 
-		If the user successfully adds an item, the top container alerts the user with a “success” message.
+	-- If the user tries to submit a blank item, the top container in the project alerts the user to add an item with an â€œalertâ€ message. 
+		If the user successfully adds an item, the top container alerts the user with a â€œsuccessâ€ message.
 	-- Every time an item is added, the item is displayed in the DOM
-	-- If the user clicks the “clear items” button, all items will be removed from the DOM
+	-- If the user clicks the â€œclear itemsâ€ button, all items will be removed from the DOM
 	-- If the user clicks just one of the delete item icons, only that item will be removed.
 	** TO ADD:
 		1. Local storage
